@@ -62,3 +62,25 @@ let totalAmount = amount;
 amount = "18k";
 console.log(amount); // Output:18k
 console.log(totalAmount); // Output:25K
+
+// ======================== Iterating ===================== //
+console.log("******************* Itrating *********************");
+// using for loop
+let Istring = "Hello";
+for (let i = 0; i < Istring.length; i++) {
+	console.log(Istring[i]);
+}
+
+// using for of
+for (let char of Istring) {
+	console.log("charcter:", char);
+}
+
+// ======================== Concatenation ===================== //
+
+let Cstring1 = "Hello";
+let Cstring2 = "World!";
+// Using + operator
+console.log(Cstring1 + Cstring2);
+// Using concat() method
+console.log(Cstring1.concat(Cstring2));
